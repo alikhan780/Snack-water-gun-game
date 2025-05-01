@@ -4,13 +4,11 @@ A simple command-line game in Python based on the classic Snake-Water-Gun (like 
 
 ## 🎮 Game Rules
 
-- 🐍 Snake drinks 💧 Water → Snake wins  
-- 💧 Water douses 🔫 Gun → Water wins  
-- 🔫 Gun kills 🐍 Snake → Gun wins  
-- Same choices → It's a draw
+ 🐍 Snake drinks 💧 Water → Snake wins  
+ 💧 Water douses 🔫 Gun → Water wins  
+ 🔫 Gun kills 🐍 Snake → Gun wins  
+ Same choices → It's a draw
 
-### Mapping:
-```python
 snake = 1
 water = -1
 gun = 0
@@ -19,11 +17,8 @@ gun = 0
 Run the script using Python.
 
 Enter your choice:
-
 s for Snake
-
 w for Water
-
 g for Gun
 
 The computer randomly chooses one too.
